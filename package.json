@@ -1,0 +1,31 @@
+{
+  "name": "ibchgenomeanalyzer",
+  "version": "1.0.0",
+  "description": "genome analysis software from ibch laboratory of genomics",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebiogenomics/ibchGenomeAnalyzer.git"
+  },
+  "keywords": [
+    "genome",
+    "analysis"
+  ],
+  "author": "Gaurav Sablok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codebiogenomics/ibchGenomeAnalyzer/issues"
+  },
+  "homepage": "https://github.com/codebiogenomics/ibchGenomeAnalyzer#readme",
+  "devDependencies": {
+    "electron": "^37.2.4"
+  },
+  "dependencies": {
+    "@electron-forge/core": "^7.8.1",
+    "@electron-toolkit/utils": "^4.0.0",
+    "electron-builder": "^26.0.12"
+  }
+}
